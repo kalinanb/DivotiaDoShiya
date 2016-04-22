@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDSh", "DrawerLayout_V7_Tutorial\DDSh.csproj", "{12E45872-B46B-4A96-912B-5459DB21112C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDSh", "DDSh\DDSh.csproj", "{12E45872-B46B-4A96-912B-5459DB21112C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

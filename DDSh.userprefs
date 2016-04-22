@@ -1,8 +1,11 @@
-﻿<Properties StartupItem="DrawerLayout_V7_Tutorial\DDSh.csproj">
+﻿<Properties StartupItem="DDSh\DDSh.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Xamarin_Android_API_15" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DrawerLayout_V7_Tutorial\Resources\Resource.designer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DDSh\Properties\AndroidManifest.xml">
     <Files>
-      <File FileName="DrawerLayout_V7_Tutorial\Resources\Resource.designer.cs" Line="1" Column="1" />
+      <File FileName="DDSh\Resources\Resource.designer.cs" Line="1" Column="1" />
+      <File FileName="DDSh\MainActivity.cs" Line="34" Column="20" />
+      <File FileName="DDSh\Properties\AndroidManifest.xml" Line="5" Column="12" />
+      <File FileName="DDSh\Properties\AssemblyInfo.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
