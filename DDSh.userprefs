@@ -1,11 +1,10 @@
 ﻿<Properties StartupItem="DDSh\DDSh.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Xamarin_Android_API_15" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DDSh\Properties\AndroidManifest.xml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 7 (Jelly Bean)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DDSh\Resources\values\Strings.xml">
     <Files>
-      <File FileName="DDSh\Resources\Resource.designer.cs" Line="1" Column="1" />
-      <File FileName="DDSh\MainActivity.cs" Line="34" Column="20" />
-      <File FileName="DDSh\Properties\AndroidManifest.xml" Line="5" Column="12" />
-      <File FileName="DDSh\Properties\AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="DDSh\MainActivity.cs" Line="38" Column="65" />
+      <File FileName="DDSh\MyActionBarDrawerToggle.cs" Line="10" Column="11" />
+      <File FileName="DDSh\Resources\values\Strings.xml" Line="11" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
