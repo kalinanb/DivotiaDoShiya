@@ -4,7 +4,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="Дивотия до шия в Търново" android:name="mono.android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
-    <activity android:icon="@drawable/icon" android:label="DrawerLayout" android:theme="@style/MyTheme" android:name="md57bfced71b8b06a7424ada8355e72f22f.MainActivity">
+    <activity android:icon="@drawable/icon" android:label="Дивотия до шия в Търново" android:theme="@style/MyTheme" android:name="md57bfced71b8b06a7424ada8355e72f22f.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

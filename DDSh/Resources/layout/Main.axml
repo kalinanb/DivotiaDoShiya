@@ -21,15 +21,33 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
+                android:text="red"
+                android:gravity="center_horizontal"
+                android:background="#aa0000"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dip" />
-            <Spinner
-                android:id="@+id/spinner"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:prompt="@string/alert_prompt"
-                android:layout_marginTop="20dip" />
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+            <TextView
+                android:text="green"
+                android:gravity="center_horizontal"
+                android:background="#00aa00"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+            <TextView
+                android:text="blue"
+                android:gravity="center_horizontal"
+                android:background="#0000aa"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+            <TextView
+                android:text="yellow"
+                android:gravity="center_horizontal"
+                android:background="#aaaa00"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
         </RelativeLayout>
     <!-- The Left Navigation Drawer -->
         <ListView
