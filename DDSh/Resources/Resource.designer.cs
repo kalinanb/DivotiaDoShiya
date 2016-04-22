@@ -71,6 +71,22 @@ namespace DDSh
 			}
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f0c0000
+			public const int alert_array = 2131492864;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -1435,8 +1451,11 @@ namespace DDSh
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0054
-			public const int action0 = 2131427412;
+			// aapt resource value: 0x7f0b0052
+			public const int RelativeLayout = 2131427410;
+			
+			// aapt resource value: 0x7f0b005b
+			public const int action0 = 2131427419;
 			
 			// aapt resource value: 0x7f0b0041
 			public const int action_bar = 2131427393;
@@ -1462,11 +1481,11 @@ namespace DDSh
 			// aapt resource value: 0x7f0b0042
 			public const int action_context_bar = 2131427394;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int action_divider = 2131427416;
+			// aapt resource value: 0x7f0b005f
+			public const int action_divider = 2131427423;
 			
-			// aapt resource value: 0x7f0b0062
-			public const int action_help = 2131427426;
+			// aapt resource value: 0x7f0b0069
+			public const int action_help = 2131427433;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -1483,8 +1502,8 @@ namespace DDSh
 			// aapt resource value: 0x7f0b0023
 			public const int action_mode_close_button = 2131427363;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int action_refresh = 2131427425;
+			// aapt resource value: 0x7f0b0068
+			public const int action_refresh = 2131427432;
 			
 			// aapt resource value: 0x7f0b0024
 			public const int activity_chooser_view_content = 2131427364;
@@ -1501,14 +1520,17 @@ namespace DDSh
 			// aapt resource value: 0x7f0b002b
 			public const int buttonPanel = 2131427371;
 			
-			// aapt resource value: 0x7f0b0055
-			public const int cancel_action = 2131427413;
+			// aapt resource value: 0x7f0b0057
+			public const int camera = 2131427415;
+			
+			// aapt resource value: 0x7f0b005c
+			public const int cancel_action = 2131427420;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int checkbox = 2131427385;
 			
-			// aapt resource value: 0x7f0b005b
-			public const int chronometer = 2131427419;
+			// aapt resource value: 0x7f0b0062
+			public const int chronometer = 2131427426;
 			
 			// aapt resource value: 0x7f0b001c
 			public const int collapseActionView = 2131427356;
@@ -1540,14 +1562,20 @@ namespace DDSh
 			// aapt resource value: 0x7f0b0019
 			public const int end = 2131427353;
 			
-			// aapt resource value: 0x7f0b0060
-			public const int end_padder = 2131427424;
+			// aapt resource value: 0x7f0b0067
+			public const int end_padder = 2131427431;
+			
+			// aapt resource value: 0x7f0b0056
+			public const int entry = 2131427414;
 			
 			// aapt resource value: 0x7f0b0025
 			public const int expand_activities_button = 2131427365;
 			
 			// aapt resource value: 0x7f0b0038
 			public const int expanded_menu = 2131427384;
+			
+			// aapt resource value: 0x7f0b0058
+			public const int gallery = 2131427416;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int home = 2131427332;
@@ -1564,17 +1592,23 @@ namespace DDSh
 			// aapt resource value: 0x7f0b0026
 			public const int image = 2131427366;
 			
-			// aapt resource value: 0x7f0b005f
-			public const int info = 2131427423;
+			// aapt resource value: 0x7f0b0066
+			public const int info = 2131427430;
 			
-			// aapt resource value: 0x7f0b0052
-			public const int left_drawer = 2131427410;
+			// aapt resource value: 0x7f0b0053
+			public const int label1 = 2131427411;
+			
+			// aapt resource value: 0x7f0b0055
+			public const int label2 = 2131427413;
 			
 			// aapt resource value: 0x7f0b0059
-			public const int line1 = 2131427417;
+			public const int left_drawer = 2131427417;
 			
-			// aapt resource value: 0x7f0b005d
-			public const int line3 = 2131427421;
+			// aapt resource value: 0x7f0b0060
+			public const int line1 = 2131427424;
+			
+			// aapt resource value: 0x7f0b0064
+			public const int line3 = 2131427428;
 			
 			// aapt resource value: 0x7f0b0009
 			public const int listMode = 2131427337;
@@ -1582,8 +1616,8 @@ namespace DDSh
 			// aapt resource value: 0x7f0b0028
 			public const int list_item = 2131427368;
 			
-			// aapt resource value: 0x7f0b0057
-			public const int media_actions = 2131427415;
+			// aapt resource value: 0x7f0b005e
+			public const int media_actions = 2131427422;
 			
 			// aapt resource value: 0x7f0b001a
 			public const int middle = 2131427354;
@@ -1612,8 +1646,8 @@ namespace DDSh
 			// aapt resource value: 0x7f0b003b
 			public const int radio = 2131427387;
 			
-			// aapt resource value: 0x7f0b0053
-			public const int right_drawer = 2131427411;
+			// aapt resource value: 0x7f0b005a
+			public const int right_drawer = 2131427418;
 			
 			// aapt resource value: 0x7f0b0014
 			public const int screen = 2131427348;
@@ -1675,6 +1709,9 @@ namespace DDSh
 			// aapt resource value: 0x7f0b002c
 			public const int spacer = 2131427372;
 			
+			// aapt resource value: 0x7f0b0054
+			public const int spinner = 2131427412;
+			
 			// aapt resource value: 0x7f0b0007
 			public const int split_action_bar = 2131427335;
 			
@@ -1687,8 +1724,8 @@ namespace DDSh
 			// aapt resource value: 0x7f0b0017
 			public const int src_over = 2131427351;
 			
-			// aapt resource value: 0x7f0b0056
-			public const int status_bar_latest_event_content = 2131427414;
+			// aapt resource value: 0x7f0b005d
+			public const int status_bar_latest_event_content = 2131427421;
 			
 			// aapt resource value: 0x7f0b004c
 			public const int submit_area = 2131427404;
@@ -1696,17 +1733,17 @@ namespace DDSh
 			// aapt resource value: 0x7f0b000b
 			public const int tabMode = 2131427339;
 			
-			// aapt resource value: 0x7f0b005e
-			public const int text = 2131427422;
+			// aapt resource value: 0x7f0b0065
+			public const int text = 2131427429;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int text2 = 2131427420;
+			// aapt resource value: 0x7f0b0063
+			public const int text2 = 2131427427;
 			
 			// aapt resource value: 0x7f0b0034
 			public const int textSpacerNoButtons = 2131427380;
 			
-			// aapt resource value: 0x7f0b005a
-			public const int time = 2131427418;
+			// aapt resource value: 0x7f0b0061
+			public const int time = 2131427425;
 			
 			// aapt resource value: 0x7f0b002a
 			public const int title = 2131427370;
@@ -1900,8 +1937,8 @@ namespace DDSh
 		public partial class Menu
 		{
 			
-			// aapt resource value: 0x7f0c0000
-			public const int action_menu = 2131492864;
+			// aapt resource value: 0x7f0d0000
+			public const int action_menu = 2131558400;
 			
 			static Menu()
 			{
@@ -1972,6 +2009,9 @@ namespace DDSh
 			
 			// aapt resource value: 0x7f050012
 			public const int abc_toolbar_collapse_description = 2131034130;
+			
+			// aapt resource value: 0x7f050018
+			public const int alert_prompt = 2131034136;
 			
 			// aapt resource value: 0x7f050015
 			public const int app_name = 2131034133;

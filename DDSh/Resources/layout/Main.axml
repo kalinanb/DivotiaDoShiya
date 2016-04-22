@@ -18,36 +18,53 @@
         android:layout_height="match_parent">
     <!-- The Main Content View -->
         <RelativeLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:id="@+id/RelativeLayout">
             <TextView
-                android:text="red"
-                android:gravity="center_horizontal"
-                android:background="#aa0000"
-                android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:layout_weight="1" />
+                android:id="@+id/label1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Тип сигнал:"
+                android:layout_marginLeft="10dip" />
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/alert_prompt"
+                android:layout_below="@id/label1" />
             <TextView
-                android:text="green"
-                android:gravity="center_horizontal"
-                android:background="#00aa00"
+                android:id="@+id/label2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Описание:"
+                android:layout_below="@id/spinner"
+                android:layout_marginLeft="10dip" />
+            <EditText
+                android:id="@+id/entry"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:layout_below="@id/label2"
+                android:hint="Не е задължително" />
+            <Button
+                android:id="@+id/camera"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:layout_weight="1" />
-            <TextView
-                android:text="blue"
-                android:gravity="center_horizontal"
-                android:background="#0000aa"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/entry"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dip"
+                android:text="Пусни камера" />
+            <Button
+                android:id="@+id/gallery"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:layout_weight="1" />
-            <TextView
-                android:text="yellow"
-                android:gravity="center_horizontal"
-                android:background="#aaaa00"
-                android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:layout_weight="1" />
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/camera"
+                android:layout_alignTop="@id/camera"
+                android:text="Избери от галерия" />
         </RelativeLayout>
     <!-- The Left Navigation Drawer -->
         <ListView

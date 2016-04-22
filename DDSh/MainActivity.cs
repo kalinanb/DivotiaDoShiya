@@ -11,9 +11,10 @@ using Android.Support.V7.App;
 using Android.Support.V4.Widget;
 using System.Collections.Generic;
 
+
 namespace DDSh
 {
-	[Activity (Label = "Дивотия до шия в Търново", MainLauncher = true, Icon = "@drawable/icon", Theme="@style/MyTheme")]
+	[Activity (Label = "DrawerLayout", MainLauncher = true, Icon = "@drawable/icon", Theme="@style/MyTheme")]
 	public class MainActivity : ActionBarActivity
 	{
 		private SupportToolbar mToolbar;
@@ -29,9 +30,22 @@ namespace DDSh
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
+
+
+			//Spinner setup
+			SetContentView (Resource.Layout.Main);
+
+			Spinner spinner = FindViewById<Spinner> (Resource.Id.spinner);
+			var adapter = ArrayAdapter.CreateFromResource (
+				this, Resource.Array.alert_array, Android.Resource.Layout.SimpleSpinnerItem);
+
+			adapter.SetDropDownViewResource (Android.Resource.Layout.SimpleSpinnerDropDownItem);
+			spinner.Adapter = adapter;
+
+
+
 	
 			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.Main);
 
 			mToolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
 			mDrawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
@@ -87,7 +101,6 @@ namespace DDSh
 				SupportActionBar.SetTitle(Resource.String.closeDrawer);
 			}
 		}
-			
 		public override bool OnOptionsItemSelected (IMenuItem item)
 		{		
 			switch (item.ItemId)
